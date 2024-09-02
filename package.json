@@ -1,0 +1,46 @@
+{
+  "name": "dashboard-version-2",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "pinia": "^2.1.7",
+    "vee-validate": "^4.13.2",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue": "^3.4.29",
+    "vue-recaptcha-v3": "^2.0.1",
+    "vue-router": "^4.4.0",
+    "vue-tabler-icons": "^2.21.0",
+    "vue3-perfect-scrollbar": "^2.0.0",
+    "vuetify": "^3.6.12",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.1.1",
+    "@mdi/js": "^7.4.47",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/axios": "^0.14.0",
+    "@types/chance": "1.1.6",
+    "@types/lodash": "4.17.0",
+    "@types/node": "20.12.8",
+    "@vitejs/plugin-vue": "5.0.4",
+    "@vue/tsconfig": "0.5.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.25.0",
+    "globals": "^15.1.0",
+    "prettier": "3.2.5",
+    "sass": "1.76.0",
+    "sass-loader": "14.2.1",
+    "typescript": "5.4.5",
+    "typescript-eslint": "^7.8.0",
+    "vite": "5.2.10",
+    "vue-cli-plugin-vuetify": "2.5.8",
+    "vue-tsc": "2.0.16"
+  }
+}
